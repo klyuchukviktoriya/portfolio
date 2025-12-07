@@ -1,0 +1,19 @@
+@use "../../styles/utils/index" as *;
+
+.hero {
+    color: var(--gold);
+
+    &__container {
+        padding: 240px 0;
+        display: flex;
+    }
+
+    &__info {
+        height: 400px;
+        background: url("../../assets/hero.png");
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__nav {}
+}

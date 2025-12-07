@@ -1,0 +1,28 @@
+:root {
+  --dark: #272727;
+  --light: #F4EAD9;
+  --gold: #C9A227;
+  --red: #9a3800;
+  --em-deep: #0F3D32;
+  --em-light: #1A6F54;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  border: 1px solid var(--gold);
+}
+
+.hero {
+  color: var(--gold);
+}
+.hero__container {
+  padding: 240px 0;
+  display: flex;
+}
+.hero__info {
+  height: 400px;
+  background: url("../../assets/hero.png");
+  background-size: cover;
+  background-position: center;
+}/*# sourceMappingURL=Hero.module.css.map */
