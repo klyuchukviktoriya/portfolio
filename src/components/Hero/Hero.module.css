@@ -13,16 +13,50 @@
   border: 1px solid var(--gold);
 }
 
-.hero {
-  color: var(--gold);
+@media screen and (min-width: 768px) {
+  section {
+    padding: 48px 0;
+  }
 }
-.hero__container {
-  padding: 240px 0;
+.hero {
   display: flex;
+  color: var(--light);
 }
 .hero__info {
-  height: 400px;
-  background: url("../../assets/hero.png");
+  height: 320px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background: linear-gradient(45deg, rgba(18, 18, 17, 0.933) 25%, rgba(18, 18, 17, 0.832) 35%, rgba(18, 18, 17, 0.418) 65%), url("../../assets/hero.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center top;
+}
+.hero__info h1 {
+  line-height: 1.2;
+}
+.hero__nav {
+  flex: 1;
+  display: flex;
+}
+.hero__navList {
+  display: flex;
+  width: 100%;
+}
+.hero__navList li {
+  flex: 1;
+  writing-mode: sideways-lr;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid var(--gold);
+  font-size: 18px;
+  cursor: pointer;
+  height: 240px;
+  transition: all 0.3s ease;
+}
+.hero__navList li:hover {
+  scale: 1.2;
+  background: rgba(201, 162, 39, 0.2);
 }/*# sourceMappingURL=Hero.module.css.map */

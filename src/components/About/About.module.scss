@@ -1,0 +1,32 @@
+@use "../../styles/utils/index" as *;
+
+.about {
+    // color: var(--light);
+    // padding: 120px 0;
+
+
+    &__content {
+        max-width: 600px;
+        color: var(--light);
+        // display: flex;
+        // align-items: center;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 24px;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        // line-height: 1.5;
+        font-size: 16px;
+        margin-bottom: 16px;
+        text-align: center;
+
+    }
+
+
+}

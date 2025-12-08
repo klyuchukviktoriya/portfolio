@@ -1,0 +1,36 @@
+:root {
+  --dark: #272727;
+  --light: #F4EAD9;
+  --gold: #C9A227;
+  --red: #9a3800;
+  --em-deep: #0F3D32;
+  --em-light: #1A6F54;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  border: 1px solid var(--gold);
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    padding: 48px 0;
+  }
+}
+.about__content {
+  max-width: 600px;
+  color: var(--light);
+}
+.about__title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+.about__text {
+  font-size: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+}/*# sourceMappingURL=About.module.css.map */
