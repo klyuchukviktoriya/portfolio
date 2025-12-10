@@ -1,10 +1,10 @@
 :root {
-  --dark: #272727;
-  --light: #F4EAD9;
-  --gold: #C9A227;
-  --red: #9a3800;
-  --em-deep: #0F3D32;
-  --em-light: #1A6F54;
+  --dark: #191919;
+  --light: #ebe0c2;
+  --gold: #c1914f;
+  --red: #9f0a10;
+  --rose: #430102;
+  --purple: #220c12;
 }
 
 .container {
@@ -19,6 +19,7 @@
   }
 }
 :root {
+  color: var(--light);
   font-family: "Montserrat", sans-serif;
   font-synthesis: none;
   font-size: 16px;

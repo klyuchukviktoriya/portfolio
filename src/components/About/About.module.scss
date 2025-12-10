@@ -1,18 +1,20 @@
 @use "../../styles/utils/index" as *;
 
 .about {
+
     // color: var(--light);
     // padding: 120px 0;
-
-
     &__content {
-        max-width: 600px;
+        // background: rgb(203, 22, 22);
+        background: linear-gradient(45deg, rgba(163, 163, 163, 0.93) 25%, rgba(197, 197, 197, 0.832) 35%, rgba(86, 86, 86, 0.627) 65%), var(--gold);
+        // max-width: 600px;
         color: var(--light);
-        // display: flex;
+        display: flex;
         // align-items: center;
     }
 
     &__title {
+        // color: var(--dark);
         text-align: center;
         font-size: 48px;
         font-weight: 700;
@@ -21,6 +23,7 @@
     }
 
     &__text {
+        // color: var(--dark);
         // line-height: 1.5;
         font-size: 16px;
         margin-bottom: 16px;

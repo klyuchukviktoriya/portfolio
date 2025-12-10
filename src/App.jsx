@@ -1,11 +1,11 @@
 // import Background from "./components/Background/Background";
-import Main from "./pages/MainPage";
-
+import "animate.css";
+import MainPage from "./pages/MainPage";
 export default function App() {
   return (
     <>
       {/* <Background /> */}
-      <Main />
+      <MainPage />
     </>
   );
 }

@@ -1,60 +1,101 @@
 @use "../../styles/utils/index" as *;
 
 .hero {
-    display: flex;
+
     color: var(--light);
 
+    &__container {
+        display: flex;
+    }
+
     &__info {
-        // flex: 2;
+        flex: 1;
         height: 320px;
-        padding: 20px;
+        padding: 40px;
 
         display: flex;
         flex-direction: column;
-        justify-content: end;
+        // justify-content: end;
         // justify-content: center;
         // padding-left: 80px;
-        background: linear-gradient(45deg, rgba(18, 18, 17, 0.933) 25%, rgba(18, 18, 17, 0.832) 35%, rgba(18, 18, 17, 0.418) 65%), url("../../assets/hero.jpg");
-        background-size: cover;
-        background-position: center top;
 
         h1 {
             line-height: 1.2;
         }
     }
 
-    &__nav {
+    // &__hello {
+    //     font-size: 64px;
+    //     text-transform: uppercase;
+    //     font-weight: 900;
+    // }
 
+    &__nav {
+        flex: 1;
+        height: 600px;
+        // background: rgba(49, 49, 49, 0.762);
+        background: linear-gradient(45deg, rgba(18, 18, 17, 0.93) 25%, #121211d4 35%, hsla(0, 0%, 34%, 0.627) 65%), url("../../assets/me.png");
+        background-size: cover;
+        background-position: center right;
         flex: 1;
         display: flex;
         // height: 100vh;
     }
 
     &__navList {
+        // height: 100%;
         display: flex;
         // flex-direction: column;
         width: 100%;
-    }
 
-    &__navList li {
-        flex: 1;
-        writing-mode: sideways-lr;
-        text-transform: uppercase;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-left: 1px solid var(--gold);
-        font-size: 18px;
-        cursor: pointer;
-        height: 240px;
-        transition: all 0.3s ease;
+        li {
 
-        &:hover {
-            scale: 1.2;
-            background: rgba(201, 162, 39, 0.2);
+            flex: 1;
+            writing-mode: sideways-lr;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-left: 1px solid var(--gold);
+            font-size: 18px;
+            cursor: pointer;
+            // height: 240px;
+            transition: all 0.3s ease;
+            // opacity: 0.4;
+
+            &:hover {
+                scale: 1.05;
+                // background: rgba(201, 162, 39, 0.2);
+                // opacity: 0.7;
+            }
+
 
         }
+
+        // li:nth-child(1) {
+        //     background: #c1914f;
+        // }
+
+        // li:nth-child(2) {
+        //     background: #9f0a10;
+        // }
+
+
+
+        // li:nth-child(3) {
+        //     background: #430102;
+        // }
+
+        // li:nth-child(4) {
+        //     background: #220c12;
+        // }
+
+        // li:nth-child(5) {
+        //     background: #191919;
+        // }
+
+        // &__navList
+        // }
+
     }
-
-
 }

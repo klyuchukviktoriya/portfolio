@@ -1,7 +1,7 @@
 @use "./utils/index" as *;
 
 :root {
-  // color: var(--dark);
+  color: var(--light);
   font-family: "Montserrat", sans-serif;
   font-synthesis: none;
   font-size: 16px;
@@ -13,7 +13,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-
+  // :root {
+  --animate-duration: 2s;
+  // --animate-delay: 0.9s;
+  // }
   // backdrop-filter: blur(10px);
   background: var(--dark);
   // background: url("../assets/bg.png");
