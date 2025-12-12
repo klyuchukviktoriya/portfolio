@@ -30,6 +30,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --animate-duration: 2s;
   background: var(--dark);
 }
 

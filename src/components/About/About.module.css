@@ -19,7 +19,9 @@
   }
 }
 .about__content {
-  max-width: 600px;
+  background: linear-gradient(45deg, rgba(163, 163, 163, 0.93) 25%, rgba(197, 197, 197, 0.832) 35%, rgba(86, 86, 86, 0.627) 65%), var(--gold);
+  color: var(--light);
+  display: flex;
 }
 .about__title {
   text-align: center;

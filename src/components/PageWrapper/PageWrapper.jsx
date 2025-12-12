@@ -1,0 +1,15 @@
+import { motion } from "framer-motion";
+
+export default function PageWrapper({ children }) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, x: 100 }} // страница "заезжает"
+      animate={{ opacity: 1, x: 0 }} // страница полностью видна
+      exit={{ opacity: 0, x: -100 }} // страница "уезжает"
+      transition={{ duration: 0.5, ease: "easeOut" }}
+      style={{ width: "100%" }}
+    >
+      {children}
+    </motion.div>
+  );
+}

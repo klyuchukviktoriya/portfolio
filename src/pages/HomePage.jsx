@@ -2,12 +2,15 @@
 
 // import About from "@/components/About/About";
 import Hero from "@/components/Hero/Hero";
+import PageWrapper from "@/components/PageWrapper/PageWrapper";
 
 export default function HomePage() {
   return (
     <>
-      <Hero />
-      {/* <About /> */}
+      <PageWrapper>
+        <Hero />
+        {/* <About /> */}
+      </PageWrapper>
     </>
   );
 }
