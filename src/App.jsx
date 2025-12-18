@@ -1,9 +1,9 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage";
-import SkillsPage from "./pages/SkillsPage";
 import Header from "./components/Header/Header";
+import WorksPage from "./pages/WorksPage";
+
 export default function App() {
   const location = useLocation();
 
@@ -13,8 +13,7 @@ export default function App() {
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/skills" element={<SkillsPage />} />
+          <Route path="/works" element={<WorksPage />} />
         </Routes>
       </AnimatePresence>
     </>

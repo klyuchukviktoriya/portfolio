@@ -12,10 +12,7 @@ export default function Hero() {
         <nav className={css.hero__nav}>
           <ul className={css.hero__navList}>
             <li>Home</li>
-            <li>About</li>
-            <li>Stack</li>
             <li>Works</li>
-            <li>Contacts</li>
           </ul>
         </nav>
       </div>
