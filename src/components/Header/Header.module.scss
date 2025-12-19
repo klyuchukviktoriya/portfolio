@@ -1,7 +1,42 @@
-.menuIcon {
-    fill: gold;
-    stroke: gold;
-    width: 22px;
-    height: 22px;
-    color: gold;
+@use "../../styles/utils/index" as *;
+
+.header {
+    padding: 20px 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h2 {
+            font-weight: 600;
+            font-size: 18px;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+
+        button {
+            width: 24px;
+            height: 24px;
+            border: none;
+            padding: 0;
+            background: transparent;
+            display: grid;
+            place-items: center;
+
+            .menuIcon {
+                width: 24px;
+                height: 24px;
+                stroke: var(--gold);
+            }
+        }
+    }
+
+    &__nav {
+        gap: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
 }

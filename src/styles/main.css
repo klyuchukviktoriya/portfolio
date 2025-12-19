@@ -1,23 +1,16 @@
 :root {
-  --dark: #191919;
-  --light: #ebe0c2;
-  --gold: #c1914f;
-  --red: #9f0a10;
-  --rose: #430102;
-  --purple: #220c12;
+  --dark: #181818;
+  --light: #FFFFFF;
+  --gold: #C1914F;
 }
 
 .container {
-  max-width: 1440px;
+  width: 100%;
+  max-width: 1280px;
   margin: 0 auto;
-  border: 1px solid var(--gold);
+  padding: 0 20px;
 }
 
-@media screen and (min-width: 768px) {
-  section {
-    padding: 48px 0;
-  }
-}
 :root {
   color: var(--light);
   font-family: "Montserrat", sans-serif;
@@ -25,12 +18,9 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 1px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --animate-duration: 2s;
   background: var(--dark);
 }
 

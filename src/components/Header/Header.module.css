@@ -1,0 +1,47 @@
+:root {
+  --dark: #181818;
+  --light: #FFFFFF;
+  --gold: #C1914F;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  padding: 20px 0;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container h2 {
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.header .container button {
+  width: 24px;
+  height: 24px;
+  border: none;
+  padding: 0;
+  background: transparent;
+  display: grid;
+  place-items: center;
+}
+.header .container button .menuIcon {
+  width: 24px;
+  height: 24px;
+  stroke: var(--gold);
+}
+.header__nav {
+  gap: 100px;
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=Header.module.css.map */

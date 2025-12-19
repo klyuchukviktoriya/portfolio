@@ -7,16 +7,16 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 1px;
+  // line-height: 1.5;
+  // letter-spacing: 1px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  // :root {
-  --animate-duration: 2s;
+
+  // --animate-duration: 2s;
   // --animate-delay: 0.9s;
-  // }
+
   // backdrop-filter: blur(10px);
   background: var(--dark);
   // background: url("../assets/bg.png");

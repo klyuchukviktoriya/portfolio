@@ -9,12 +9,6 @@ export default function Hero() {
           <h1>Front-End Developer</h1>
           <p>Viktoriya Klyuchuk </p>
         </div>
-        <nav className={css.hero__nav}>
-          <ul className={css.hero__navList}>
-            <li>Home</li>
-            <li>Works</li>
-          </ul>
-        </nav>
       </div>
     </section>
   );
