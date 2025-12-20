@@ -1,0 +1,56 @@
+:root {
+  --dark: #181818;
+  --light: #FFFFFF;
+  --gold: #C1914F;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border: 1px solid var(--gold);
+}
+
+.active {
+  color: var(--gold);
+  text-decoration-line: underline;
+  text-underline-offset: 8px;
+}
+
+nav > a {
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: #000000;
+  z-index: 100;
+}
+.modal__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.modal__closeBtn {
+  width: 24px;
+  height: 24px;
+  background-color: #ffffff;
+  position: absolute;
+  z-index: 999;
+  top: 24px;
+  right: 24px;
+}
+.modal__closeIcon {
+  width: 24px;
+  height: 24px;
+  stroke: #c53b3b;
+}
+.modal__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}/*# sourceMappingURL=Modal.module.css.map */

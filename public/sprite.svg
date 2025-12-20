@@ -14,14 +14,12 @@
 <symbol id="icon-facebook" viewBox="0 0 32 32">
 <path d="M0 16c0-8.837 7.163-16 16-16s16 7.163 16 16c0 8.837-7.163 16-16 16s-16-7.163-16-16zM17.668 25.408v-8.705h2.403l0.319-3h-2.721l0.004-1.501c0-0.782 0.074-1.202 1.198-1.202h1.502v-3h-2.403c-2.887 0-3.903 1.455-3.903 3.902v1.801h-1.799v3h1.799v8.705h3.602z"></path>
 </symbol>
-<symbol id="icon-x-modal" viewBox="0 0 32 32">
-<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M8 8l8 8 8-8"></path>
-<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M8 24l8-8 8 8"></path>
+<symbol id="icon-menu" viewBox="0 0 20 20">
+<path d="M1 4h2v2h-2v-2zM5 4h14v2h-14v-2zM1 9h2v2h-2v-2zM5 9h14v2h-14v-2zM1 14h2v2h-2v-2zM5 14h14v2h-14v-2z"></path>
 </symbol>
-<symbol id="icon-menu" viewBox="0 0 24 24">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M4 16h24"></path>
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M4 8h24"></path>
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M4 24h24"></path>
+<symbol id="icon-close" viewBox="0 0 20 20">
+<path d="M10 8.586l-7.071-7.071-1.414 1.414 7.071 7.071-7.071 7.071 1.414 1.414 7.071-7.071 7.071 7.071 1.414-1.414-7.071-7.071 7.071-7.071-1.414-1.414-7.071 7.071z"></path>
 </symbol>
 </defs>
 </svg>
+

@@ -38,22 +38,19 @@ nav > a {
   fill: var(--gold);
 }
 
-.header {
-  padding: 20px 0;
+.modal {
+  position: fixed;
+  inset: 0;
+  background: #000000;
+  z-index: 100;
 }
-.header .container {
+.modal__content {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
 }
-.header .container h2 {
-  font-weight: 600;
-  font-size: 18px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--gold);
-  text-align: center;
-  line-height: 22px;
-  text-align: left;
-  text-transform: uppercase;
-}/*# sourceMappingURL=Header.module.css.map */
+.modal__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}/*# sourceMappingURL=Menu.module.css.map */
