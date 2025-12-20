@@ -1,5 +1,22 @@
 @use "./variables" as *;
 
+@mixin menuIcon {
+    width: 26px;
+    height: 26px;
+    border: none;
+    padding: 0;
+    background: transparent;
+    display: grid;
+    place-items: center;
+
+
+    svg {
+        width: 24px;
+        height: 24px;
+        fill: var(--gold);
+    }
+}
+
 // @mixin btn($background-color: var(--brown)) {
 //   color: var(--light);
 //   background-color: $background-color;

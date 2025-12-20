@@ -23,7 +23,18 @@ nav > a {
   text-transform: uppercase;
 }
 
-.menuBtn {
+.menu {
+  position: fixed;
+  inset: 0;
+  background: #000000;
+  z-index: 100;
+}
+.menu__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.menu__closeBtn {
   width: 26px;
   height: 26px;
   border: none;
@@ -31,25 +42,17 @@ nav > a {
   background: transparent;
   display: grid;
   place-items: center;
+  position: absolute;
+  z-index: 999;
+  top: 24px;
+  right: 24px;
 }
-.menuBtn .menuIcon {
+.menu__closeBtn svg {
   width: 24px;
   height: 24px;
   fill: var(--gold);
 }
-
-.modal {
-  position: fixed;
-  inset: 0;
-  background: #000000;
-  z-index: 100;
-}
-.modal__content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.modal__nav {
+.menu__nav {
   display: flex;
   flex-direction: column;
   gap: 40px;

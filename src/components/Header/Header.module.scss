@@ -16,15 +16,17 @@
             letter-spacing: 0.04em;
             text-transform: uppercase;
             color: var(--gold);
-
             text-align: center;
-
-
             line-height: 22px;
             // letter-spacing: 0.03em;
             text-align: left;
             text-transform: uppercase;
         }
+    }
+
+    &__menuBtn {
+        @include menuIcon;
+
     }
 
     // &__nav {

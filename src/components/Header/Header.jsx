@@ -15,8 +15,8 @@ export default function Header() {
     <header className={css.header}>
       <div className={css.container}>
         <h2>Viсtoria Klyuchuk</h2>
-        <button className={css.menuBtn} onClick={() => setIsOpen(true)}>
-          <svg className={css.menuIcon}>
+        <button className={css.header__menuBtn} onClick={() => setIsOpen(true)}>
+          <svg>
             <use href="/sprite.svg#icon-menu"></use>
           </svg>
         </button>

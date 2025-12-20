@@ -1,0 +1,13 @@
+.soc__list {
+  display: flex;
+  gap: 24px;
+}
+.soc__list li {
+  width: 24px;
+  height: 24px;
+}
+.soc__icon {
+  border: 1px solid var(--gold);
+  width: 24px;
+  height: 24px;
+}/*# sourceMappingURL=SocLinks.module.css.map */

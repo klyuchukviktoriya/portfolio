@@ -23,21 +23,6 @@ nav > a {
   text-transform: uppercase;
 }
 
-.menuBtn {
-  width: 26px;
-  height: 26px;
-  border: none;
-  padding: 0;
-  background: transparent;
-  display: grid;
-  place-items: center;
-}
-.menuBtn .menuIcon {
-  width: 24px;
-  height: 24px;
-  fill: var(--gold);
-}
-
 .about__content {
   background: linear-gradient(45deg, rgba(163, 163, 163, 0.93) 25%, rgba(197, 197, 197, 0.832) 35%, rgba(86, 86, 86, 0.627) 65%), var(--gold);
   color: var(--light);

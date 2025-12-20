@@ -23,21 +23,6 @@ nav > a {
   text-transform: uppercase;
 }
 
-.menuBtn {
-  width: 26px;
-  height: 26px;
-  border: none;
-  padding: 0;
-  background: transparent;
-  display: grid;
-  place-items: center;
-}
-.menuBtn .menuIcon {
-  width: 24px;
-  height: 24px;
-  fill: var(--gold);
-}
-
 .header {
   padding: 20px 0;
 }
@@ -56,4 +41,18 @@ nav > a {
   line-height: 22px;
   text-align: left;
   text-transform: uppercase;
+}
+.header__menuBtn {
+  width: 26px;
+  height: 26px;
+  border: none;
+  padding: 0;
+  background: transparent;
+  display: grid;
+  place-items: center;
+}
+.header__menuBtn svg {
+  width: 24px;
+  height: 24px;
+  fill: var(--gold);
 }/*# sourceMappingURL=Header.module.css.map */
