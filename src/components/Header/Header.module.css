@@ -6,9 +6,8 @@
 
 .container {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 .active {
@@ -85,9 +84,6 @@ nav > a {
 }
 
 @media screen and (min-width: 768px) {
-  .header {
-    padding: 32px 0;
-  }
   .header__container {
     padding: 0 40px;
   }
@@ -103,9 +99,6 @@ nav > a {
   }
 }
 @media screen and (min-width: 1080px) {
-  .header {
-    padding: 40px 0;
-  }
   .header__container {
     padding: 0 68px;
   }
