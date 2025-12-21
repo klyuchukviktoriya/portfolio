@@ -7,25 +7,38 @@
     // border: 1px solid var(--gold);
 }
 
-section {
-    // padding: 48px 0;
-}
+// section {
+//     padding: 48px 0;
+// }
 
 .active {
     color: var(--gold);
     text-decoration-line: underline;
     text-underline-offset: 8px;
-    text-decoration-thickness: 1px;
+    text-decoration-thickness: 1.2px;
+    opacity: 1;
 }
 
 
 nav>a {
     font-size: 24px;
     text-transform: uppercase;
+    opacity: 0.6;
+    font-weight: 600;
+    text-shadow: 8px 6px 8px rgba(0, 0, 0, 1);
 }
 
 @media screen and (min-width: 768px) {
     // section {
     //     padding: 48px 0;
     // }
+}
+
+@media screen and (min-width: 1080px) {
+    nav>a {
+        // font-size: 36px;
+        // text-transform: uppercase;
+        // opacity: 0.6;
+        // font-weight: 600;
+    }
 }

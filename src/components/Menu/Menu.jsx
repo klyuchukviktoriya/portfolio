@@ -28,7 +28,7 @@ export default function Menu({ onClose }) {
             Works
           </NavLink>
         </nav>
-        <SocLinks />
+        <SocLinks className={css.mobileOnly} />
       </div>
     </div>
   );

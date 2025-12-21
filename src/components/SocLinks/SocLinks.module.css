@@ -1,13 +1,71 @@
-.soc__list {
-  display: flex;
-  gap: 24px;
+:root {
+  --dark: #181818;
+  --light: #FFFFFF;
+  --gold: #C1914F;
 }
-.soc__list li {
-  width: 24px;
-  height: 24px;
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.active {
+  color: var(--gold);
+  text-decoration-line: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 1.2px;
+  opacity: 1;
+}
+
+nav > a {
+  font-size: 24px;
+  text-transform: uppercase;
+  opacity: 0.6;
+  font-weight: 600;
+  text-shadow: 8px 6px 8px rgb(0, 0, 0);
+}
+
+.soc {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.soc li {
+  width: 35px;
+  height: 35px;
 }
 .soc__icon {
-  border: 1px solid var(--gold);
-  width: 24px;
-  height: 24px;
+  width: 35px;
+  height: 35px;
+  fill: var(--gold);
+  transition: all 0.5s ease;
+  filter: drop-shadow(8px 6px 8px rgb(0, 0, 0));
+}
+.soc__github:hover {
+  fill: #dfdcdc;
+}
+.soc__gmail:hover {
+  fill: #d14836;
+}
+.soc__linkedin:hover {
+  fill: #0077b5;
+}
+.soc__telegram:hover {
+  fill: #2ca5e0;
+}
+
+@media screen and (min-width: 1080px) {
+  .soc {
+    gap: 58px;
+  }
+  .soc li {
+    width: 28px;
+    height: 28px;
+  }
+  .soc__icon {
+    width: 28px;
+    height: 28px;
+  }
 }/*# sourceMappingURL=SocLinks.module.css.map */

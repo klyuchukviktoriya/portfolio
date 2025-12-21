@@ -1,9 +1,9 @@
 import css from "./SocLinks.module.scss";
 
-export default function SocLinks() {
+export default function SocLinks({ className }) {
   return (
-    <div className={css.soc}>
-      <ul className={css.soc__list}>
+    <div className={className}>
+      <ul className={css.soc}>
         <li>
           <a
             href="https://github.com/klyuchukviktoriya"
