@@ -3,6 +3,7 @@ import { AnimatePresence } from "framer-motion";
 import HomePage from "./pages/HomePage";
 import Header from "./components/Header/Header";
 import WorksPage from "./pages/WorksPage";
+import PageWrapper from "./components/PageWrapper/PageWrapper";
 
 export default function App() {
   const location = useLocation();
@@ -12,8 +13,22 @@ export default function App() {
       <Header />
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/works" element={<WorksPage />} />
+          <Route
+            path="/"
+            element={
+              <PageWrapper>
+                <HomePage />
+              </PageWrapper>
+            }
+          ></Route>
+          <Route
+            path="/works"
+            element={
+              <PageWrapper>
+                <WorksPage />
+              </PageWrapper>
+            }
+          ></Route>
         </Routes>
       </AnimatePresence>
     </>

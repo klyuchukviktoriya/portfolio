@@ -12,7 +12,7 @@
     transition: background 0.3s ease, backdrop-filter 0.3s ease;
 
     &__container {
-        max-width: 1440px;
+        max-width: 1280px;
         padding: 0 24px;
         margin: 0 auto;
         display: flex;
@@ -28,7 +28,7 @@
             text-align: center;
             line-height: 22px;
             text-transform: uppercase;
-            text-shadow: 8px 6px 8px rgba(0, 0, 0, 1);
+            text-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4);
         }
     }
 
@@ -44,8 +44,8 @@
 }
 
 .header.scrolled {
-    background: rgba(15, 15, 15, 0.7);
-    backdrop-filter: blur(8px);
+    background: rgba(24, 24, 24, 0.9);
+    backdrop-filter: blur(3px);
 }
 
 @media screen and (min-width: 768px) {

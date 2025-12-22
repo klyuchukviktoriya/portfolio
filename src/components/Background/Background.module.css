@@ -1,7 +1,1 @@
-.bg {
-  position: fixed;
-  inset: 0;
-  background: url("../../assets/bg.png") center/cover no-repeat;
-  filter: blur(20px) brightness(0.6);
-  z-index: -1;
-}/*# sourceMappingURL=Background.module.css.map */
+/*# sourceMappingURL=Background.module.css.map */

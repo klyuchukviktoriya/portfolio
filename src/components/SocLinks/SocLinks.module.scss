@@ -13,18 +13,15 @@
     li {
         width: 35px;
         height: 35px;
-
-        // border: 1px solid var(--gold);
     }
 
 
     &__icon {
-        // border: 1px solid var(--gold);
         width: 35px;
         height: 35px;
         fill: var(--gold);
         transition: all 0.5s ease;
-        filter: drop-shadow(8px 6px 8px rgba(0, 0, 0, 1));
+        filter: drop-shadow(8px 6px 8px rgba(0, 0, 0, 0.7));
     }
 
     &__github:hover {
