@@ -1,4 +1,4 @@
-import { languages } from "@/helpers/constants";
+import { languages, personalSkills, softwareSkills } from "@/helpers/constants";
 import SkillRow from "../SkillRow/SkillRow";
 import css from "./Skills.module.scss";
 
@@ -27,6 +27,12 @@ export default function Skills() {
       </div>
       <ul>
         {languages.map(item => (
+          <SkillRow key={item.name} {...item} />
+        ))}
+        {personalSkills.map(item => (
+          <SkillRow key={item.name} {...item} />
+        ))}
+        {softwareSkills.map(item => (
           <SkillRow key={item.name} {...item} />
         ))}
       </ul>
