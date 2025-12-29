@@ -18,6 +18,23 @@
     }
 }
 
+@mixin title {
+    color: var(--gold);
+    opacity: 0.4;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    // position: relative;
+
+    text-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 24px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 105px;
+    }
+}
+
 // @mixin btn($background-color: var(--brown)) {
 //   color: var(--light);
 //   background-color: $background-color;

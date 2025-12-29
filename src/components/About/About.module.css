@@ -38,10 +38,14 @@ nav > a {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  position: relative;
-  border-bottom: 2px solid var(--gold);
   text-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4);
   margin-bottom: 24px;
+  border-bottom: 2px solid var(--gold);
+}
+@media screen and (min-width: 768px) {
+  .about__title {
+    font-size: 105px;
+  }
 }
 .about__content {
   display: flex;
@@ -87,9 +91,6 @@ nav > a {
   .about__container {
     padding: 60px 40px;
     text-align: left;
-  }
-  .about__title {
-    font-size: 105px;
   }
   .about__content {
     flex-direction: row;

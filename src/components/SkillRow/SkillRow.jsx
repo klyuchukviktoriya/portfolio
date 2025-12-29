@@ -1,7 +1,8 @@
 import css from "./SkillRow.module.scss";
-export default function SkillRow({ name, value, icon }) {
-  return (
-    <li className={css.skill}>
+export default function SkillRow({ name, value, icon, title }) {
+    return (
+        <><h3>{title}</h3>
+           <li className={css.skill}>
       {icon && (
         <svg className={css.icon}>
           <use href={`/sprite.svg#icon-${icon}`} />
@@ -13,6 +14,8 @@ export default function SkillRow({ name, value, icon }) {
       <div className={css.line}>
         <span style={{ left: `${value}%` }} />
       </div>
-    </li>
+    </li>   
+      </>
+  
   );
 }

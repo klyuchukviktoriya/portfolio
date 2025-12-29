@@ -12,9 +12,9 @@ export default function About() {
           </div>
           <div className={css.about__text}>
             <p>
-              I’m just a beginner who cares a lot about details. I love learning
-              by doing and creating interfaces that look visually appealing and
-              feel comfortable to use.
+              I’m a front-end developer who cares a lot about details. I love
+              learning by doing and creating interfaces that look visually
+              appealing and feel comfortable to use.
             </p>
             <p>
               I’ve already built a few pet projects while learning React and
