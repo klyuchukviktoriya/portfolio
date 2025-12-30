@@ -33,13 +33,13 @@ nav > a {
 }
 .about__title {
   color: var(--gold);
-  opacity: 0.4;
+  opacity: 0.3;
   font-size: 48px;
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
   text-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4);
-  margin-bottom: 24px;
+  margin-bottom: 48px;
   border-bottom: 2px solid var(--gold);
 }
 @media screen and (min-width: 768px) {

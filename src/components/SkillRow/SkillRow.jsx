@@ -1,21 +1,29 @@
 import css from "./SkillRow.module.scss";
-export default function SkillRow({ name, value, icon, title }) {
-    return (
-        <><h3>{title}</h3>
-           <li className={css.skill}>
+export default function SkillRow({ name, value, icon }) {
+  return (
+    // <li className={css.skill}>
+    //   {icon && (
+    //     <svg className={css.skill__icon}>
+    //       <use href={`/sprite.svg#icon-${icon}`} />
+    //     </svg>
+    //   )}
+    //   <p className={css.skill__label}>{name}</p>
+    //   <div className={css.skill__line}>
+    //     <span style={{ left: `${value}%` }} />
+    //   </div>
+    // </li>
+    <li className={`${css.skill} ${icon ? css.withIcon : css.noIcon}`}>
       {icon && (
-        <svg className={css.icon}>
+        <svg className={css.skill__icon}>
           <use href={`/sprite.svg#icon-${icon}`} />
         </svg>
       )}
 
-      <span className={css.label}>{name}</span>
+      <p className={css.skill__label}>{name}</p>
 
-      <div className={css.line}>
+      <div className={css.skill__line}>
         <span style={{ left: `${value}%` }} />
       </div>
-    </li>   
-      </>
-  
+    </li>
   );
 }

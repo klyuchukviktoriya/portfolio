@@ -1,25 +1,22 @@
 export const languages = [
-  { title: "Languages" },
-  { name: "English", value: 70 },
+  { name: "English", value: 40 },
   { name: "Ukrainian", value: 90 },
-  { name: "Russian", value: 95 },
+  { name: "Russian", value: 100 },
 ];
 
 export const personalSkills = [
-  { title: "Personal skills" },
-  { name: "Team work", value: 70 },
+  { name: "Team work", value: 80 },
   { name: "Creativity", value: 80 },
-  { name: "Attentiveness", value: 85 },
+  { name: "Attentiveness", value: 90 },
 ];
 
 export const softwareSkills = [
-  { title: "Software skills" },
-  { name: "HTML5", value: 90, icon: "html5" },
-  { name: "CSS3", value: 85, icon: "css3" },
-  { name: "React.js", value: 60, icon: "react" },
-  { name: "TypeScript", value: 50, icon: "typescript" },
-  { name: "JavaScript", value: 65, icon: "javascript" },
+  { name: "HTML5", value: 85, icon: "html5" },
+  { name: "CSS3", value: 80, icon: "css3" },
+  { name: "React.js", value: 40, icon: "react" },
+  { name: "TypeScript", value: 30, icon: "typescript" },
+  { name: "JavaScript", value: 40, icon: "javascript" },
   { name: "Git", value: 60, icon: "git" },
-  { name: "SCSS", value: 70, icon: "sass" },
-  { name: "Figma", value: 80, icon: "figma" },
+  { name: "SCSS", value: 60, icon: "sass" },
+  { name: "Figma", value: 70, icon: "figma" },
 ];
