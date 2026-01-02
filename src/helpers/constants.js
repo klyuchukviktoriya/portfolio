@@ -1,7 +1,7 @@
 export const languages = [
   { name: "English", value: 40 },
   { name: "Ukrainian", value: 90 },
-  { name: "Russian", value: 100 },
+  { name: "Russian", value: 98 },
 ];
 
 export const personalSkills = [

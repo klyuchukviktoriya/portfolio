@@ -18,7 +18,7 @@
     h3 {
         text-align: center;
         color: var(--gold);
-        margin-bottom: 40px;
+        margin-bottom: 24px;
         // font-weight: 400;
         font-size: 20px;
         text-transform: uppercase;
@@ -35,61 +35,70 @@
     &__list {
         display: flex;
         flex-direction: column;
-        // gap: 60px;
+        // gap: 60px; 
+        align-items: center;
     }
+
+    &__item {}
 
     &__soft>&__item {
         margin-bottom: 60px;
 
     }
-
-    // &__text {
-    //     // color: var(--dark);
-    //     display: flex;
-    //     flex-direction: column;
-    //     gap: 40px;
-
-    //     // margin-bottom: 16px;
-    //     // text-align: left;
-    //     p {
-    //         text-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4);
-    //         line-height: 2.2;
-    //         font-size: 14px;
-    //         opacity: 0.8;
-    //         max-width: 520px;
-    //     }
-    // }
-
-
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
 
     .skills {
 
         &__container {
             // backdrop-filter: blur(8px);
             // background: linear-gradient(0.00deg, rgba(255, 255, 255, 0.08) 34%, rgba(24, 24, 24, 0.08) 84%);
-
-
             padding: 60px 40px;
-            text-align: left;
+            // text-align: left;
         }
 
+        &__title {
+            // @include title;
+            text-align: left;
+            // text-align: center;
+        }
 
+        h3 {
+            text-align: left;
+            // color: var(--gold);
+            // margin-bottom: 24px;
+            // font-weight: 400;
 
-        // &__text {
-        //     gap: 60px;
-        //     p {
-        //         max-width: none;
-        //         line-height: 2.2;
-        //         // font-size: 18px;
-        //     }
-        // }
+            // text-transform: uppercase;
+            // opacity: 0.6;
+            // font-weight: 600;
+            // text-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4);
+
+            // text-decoration-line: underline;
+            // text-underline-offset: 8px;
+            // text-decoration-thickness: 1.2px;
+            // opacity: 1;
+        }
+
+        &__list {
+            // display: flex;
+            flex-direction: row;
+            // gap: 60px; 
+            align-items: start;
+            justify-content: space-between;
+        }
+
+        &__item {}
+
+        &__soft>&__item {
+            margin-bottom: 42px;
+
+        }
     }
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1000px) {
 
     .skills {
         &__container {
@@ -97,6 +106,9 @@
             // text-align: left;
         }
 
+        h3 {
+            font-size: 24px;
+        }
 
         // &__text {
 
