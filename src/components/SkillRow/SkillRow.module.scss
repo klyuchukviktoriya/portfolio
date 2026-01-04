@@ -4,8 +4,9 @@
     display: grid;
     align-items: center;
     gap: 20px;
-    // justify-content: space-between;
+
     margin-bottom: 20px;
+
 
     &__icon {
         width: 24px;
@@ -42,87 +43,23 @@
 
 /* SOFTWARE SKILLS — с иконкой */
 .withIcon {
-    grid-template-columns: 24px 120px 150px;
+    grid-template-columns:
+        minmax(0, 24px) minmax(100px, 1fr) minmax(120px, 2fr);
 }
 
 /* LANGUAGES / PERSONAL — без иконки */
 .noIcon {
-    grid-template-columns: 130px 184px;
+    grid-template-columns:
+        minmax(100px, 1fr) minmax(120px, 2fr);
 }
 
-@media screen and (min-width: 800px) {
-    .withIcon {
-        grid-template-columns: 24px 100px 150px;
-    }
+// @media screen and (min-width: 800px) {
+//     .withIcon {
+//         grid-template-columns: 24px 100px 150px;
+//     }
 
-    /* LANGUAGES / PERSONAL — без иконки */
-    .noIcon {
-        grid-template-columns: 120px 164px;
-    }
-}
-
-@media screen and (min-width: 850px) {
-    .withIcon {
-        grid-template-columns: 24px 100px 150px;
-    }
-
-    /* LANGUAGES / PERSONAL — без иконки */
-    .noIcon {
-        grid-template-columns: 130px 184px;
-    }
-}
-
-@media screen and (min-width: 900px) {
-    .withIcon {
-        grid-template-columns: 24px 100px 180px;
-    }
-
-    /* LANGUAGES / PERSONAL — без иконки */
-    .noIcon {
-        grid-template-columns: 130px 204px;
-    }
-}
-
-@media screen and (min-width: 950px) {
-    .withIcon {
-        grid-template-columns: 24px 100px 180px;
-    }
-
-    /* LANGUAGES / PERSONAL — без иконки */
-    .noIcon {
-        grid-template-columns: 130px 204px;
-    }
-}
-
-@media screen and (min-width: 1000px) {
-    .withIcon {
-        grid-template-columns: 24px 150px 180px;
-    }
-
-    /* LANGUAGES / PERSONAL — без иконки */
-    .noIcon {
-        grid-template-columns: 156px 188px;
-    }
-}
-
-@media screen and (min-width: 1100px) {
-    .withIcon {
-        grid-template-columns: 24px 150px 200px;
-    }
-
-    /* LANGUAGES / PERSONAL — без иконки */
-    .noIcon {
-        grid-template-columns: 156px 238px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .withIcon {
-        grid-template-columns: 24px 150px 248px;
-    }
-
-    /* LANGUAGES / PERSONAL — без иконки */
-    .noIcon {
-        grid-template-columns: 156px 248px;
-    }
-}
+//     /* LANGUAGES / PERSONAL — без иконки */
+//     .noIcon {
+//         grid-template-columns: 120px 164px;
+//     }
+// }
