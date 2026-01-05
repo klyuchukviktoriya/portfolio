@@ -44,13 +44,13 @@
 /* SOFTWARE SKILLS — с иконкой */
 .withIcon {
     grid-template-columns:
-        minmax(0, 24px) minmax(100px, 1fr) minmax(120px, 2fr);
+        24px minmax(100px, 160px) minmax(120px, 240px);
 }
 
 /* LANGUAGES / PERSONAL — без иконки */
 .noIcon {
     grid-template-columns:
-        minmax(100px, 1fr) minmax(120px, 2fr);
+        minmax(100px, 160px) minmax(120px, 240px);
 }
 
 // @media screen and (min-width: 800px) {
