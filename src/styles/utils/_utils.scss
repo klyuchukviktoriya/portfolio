@@ -28,10 +28,14 @@ nav>a {
     text-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4);
 }
 
-@media screen and (min-width: 768px) {
-    // section {
-    //     padding: 48px 0;
-    // }
+@media screen and (min-width: 800px) {
+    nav>a {
+        font-size: 18px;
+        // text-transform: uppercase;
+        // opacity: 0.6;
+        // font-weight: 600;
+        // text-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4);
+    }
 }
 
 @media screen and (min-width: 1080px) {

@@ -1,5 +1,5 @@
 :root {
-  --dark: #181818;
+  --dark: #252525;
   --light: #FFFFFF;
   --gold: #C1914F;
 }
@@ -26,6 +26,11 @@ nav > a {
   text-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4);
 }
 
+@media screen and (min-width: 800px) {
+  nav > a {
+    font-size: 18px;
+  }
+}
 .visuallyHidden {
   position: absolute;
   width: 1px;
