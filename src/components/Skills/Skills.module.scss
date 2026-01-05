@@ -5,7 +5,7 @@
     &__container {
         // backdrop-filter: blur(8px);
         // background: linear-gradient(0.00deg, rgba(255, 255, 255, 0.08) 34%, rgba(24, 24, 24, 0.08) 84%);
-        padding: 40px 20px;
+        padding: 60px 20px;
 
     }
 
@@ -46,14 +46,14 @@
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
 
     .skills {
 
         &__container {
             // backdrop-filter: blur(8px);
             // background: linear-gradient(0.00deg, rgba(255, 255, 255, 0.08) 34%, rgba(24, 24, 24, 0.08) 84%);
-            padding: 60px 40px;
+            padding: 80px 40px;
             // text-align: left;
         }
 
@@ -108,7 +108,7 @@
 
     .skills {
         &__container {
-            padding: 60px 68px;
+            padding: 120px 68px;
             // text-align: left;
         }
 

@@ -4,44 +4,25 @@
     background: linear-gradient(0.00deg, rgba(255, 255, 255, 0.08) 34%, rgb(37, 37, 37) 84%);
 
     &__container {
-        // backdrop-filter: blur(8px);
-
         padding: 40px 20px;
-
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 40px;
     }
 
-    h2 {
-        font-weight: 600;
-        font-size: 18px;
-        letter-spacing: 0.04em;
-        text-transform: uppercase;
-        color: var(--gold);
-        text-align: center;
-        line-height: 22px;
-        text-transform: uppercase;
-        text-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4);
-    }
-
     p {
+        font-size: 14px;
         opacity: 0.6;
+        text-align: center;
     }
 }
 
 @media screen and (min-width: 800px) {
     .footer {
         &__container {
-            // backdrop-filter: blur(8px);
-            // background: linear-gradient(0.00deg, rgba(255, 255, 255, 0.08) 34%, rgba(24, 24, 24, 0.08) 84%);
             padding: 60px 40px;
-
-            // display: flex;
             flex-direction: row;
-            // align-items: center;
-            // gap: 40px;
             justify-content: space-between;
         }
     }
@@ -50,10 +31,7 @@
 @media screen and (min-width: 1000px) {
     .footer {
         &__container {
-
             padding: 60px 68px 40px;
-
-
         }
     }
 }
