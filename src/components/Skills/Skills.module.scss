@@ -1,12 +1,8 @@
 @use "../../styles/utils/index" as *;
 
 .skills {
-
     &__container {
-        // backdrop-filter: blur(8px);
-        // background: linear-gradient(0.00deg, rgba(255, 255, 255, 0.08) 34%, rgba(24, 24, 24, 0.08) 84%);
         padding: 60px 20px;
-
     }
 
     &__title {
@@ -18,150 +14,85 @@
         text-align: center;
         color: var(--gold);
         margin-bottom: 24px;
-        // font-weight: 400;
         font-size: 18px;
         text-transform: uppercase;
         opacity: 0.6;
         font-weight: 600;
         text-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4);
-
         text-decoration-line: underline;
         text-underline-offset: 8px;
         text-decoration-thickness: 1.2px;
-        // opacity: 1;
     }
 
     &__list {
         display: flex;
         flex-direction: column;
-        // gap: 60px;
         align-items: center;
     }
 
-    // &__item {margin-bottom: 0;}
-
     &__soft>&__item {
         margin-bottom: 60px;
-
     }
 }
 
 @media screen and (min-width: 768px) {
-
     .skills {
-
         &__container {
-            // backdrop-filter: blur(8px);
-            // background: linear-gradient(0.00deg, rgba(255, 255, 255, 0.08) 34%, rgba(24, 24, 24, 0.08) 84%);
-            padding: 80px 40px;
-            // text-align: left;
+            padding: 80px 40px 40px;
         }
 
         &__title {
-            // @include title;
             text-align: left;
-            // text-align: center;
         }
 
         h3 {
             text-align: left;
-            // color: var(--gold);
-            // margin-bottom: 24px;
-            // font-weight: 400;
-
-            // text-transform: uppercase;
-            // opacity: 0.6;
-            // font-weight: 600;
-            // text-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4);
-
-            // text-decoration-line: underline;
-            // text-underline-offset: 8px;
-            // text-decoration-thickness: 1.2px;
-            // opacity: 1;
         }
 
         &__list {
-            // display: flex;
             flex-direction: row;
             gap: 60px;
             align-items: start;
             justify-content: space-between;
         }
 
-        &__item {
-            // margin-bottom: 0;
-        }
-
         &__soft>&__item {
             margin-bottom: 0;
-
         }
 
         &__soft>&__item:first-child {
-            margin-bottom: 48px;
-
+            margin-bottom: 57px;
         }
     }
 }
 
 @media screen and (min-width: 1000px) {
-
     .skills {
         &__container {
-            padding: 120px 68px;
-            // text-align: left;
+            padding: 120px 68px 20px;
         }
 
         h3 {
             font-size: 20px;
         }
-
-        // &__text {
-
-        //     // gap: 100px;
-
-        //     p {
-        //         max-width: none;
-        //         line-height: 2.2;
-        //         font-size: 20px;
-        //         // font-size: 18px;
-        //     }
-        // }
     }
-
 }
 
-
-@media screen and (min-width: 1440px) {
-
-    .about {
-        &__container {
-            // padding: 80px 140px;
-            // text-align: left;
+@media screen and (min-width: 1280px) {
+    .skills {
+        &__list {
+            margin-top: -140px;
+            align-items: end;
         }
 
-        &__title {
-            // font-size: 240px;
-            // margin-bottom: 60px;
-
+        &__soft {
+            margin-bottom: 18px;
         }
 
-
-        // &__text {
-        //     margin-right: 60px;
-        //     gap: 80px;
-
-        //     p {
-
-        //         // max-width: none;
-        //         text-align: center;
-        //         line-height: 2.35;
-        //         // font-size: 22px;
-        //         // font-size: 18px;
-        //     }
-        // }
-
-
+        &__itemHard {
+            li {
+                margin-bottom: 38px;
+            }
+        }
     }
-
 }

@@ -33,7 +33,3 @@ export default function Menu({ onClose }) {
     </div>
   );
 }
-
-//       <nav className="menu"
-//         onClick={e => e.stopPropagation()}>
-//       </nav>

@@ -4,9 +4,7 @@
     display: grid;
     align-items: center;
     gap: 20px;
-
     margin-bottom: 20px;
-
 
     &__icon {
         width: 24px;
@@ -15,7 +13,6 @@
     }
 
     &__label {
-        // margin-left: 20px;
         font-size: 16px;
         color: var(--light);
         opacity: 0.8;
@@ -35,31 +32,16 @@
         width: 10px;
         height: 10px;
         background: var(--light);
-        // opacity: 0.4;
         border-radius: 50%;
     }
 }
 
-
-/* SOFTWARE SKILLS — с иконкой */
 .withIcon {
     grid-template-columns:
         24px minmax(100px, 160px) minmax(120px, 240px);
 }
 
-/* LANGUAGES / PERSONAL — без иконки */
 .noIcon {
     grid-template-columns:
         minmax(100px, 160px) minmax(120px, 240px);
 }
-
-// @media screen and (min-width: 800px) {
-//     .withIcon {
-//         grid-template-columns: 24px 100px 150px;
-//     }
-
-//     /* LANGUAGES / PERSONAL — без иконки */
-//     .noIcon {
-//         grid-template-columns: 120px 164px;
-//     }
-// }

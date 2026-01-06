@@ -28,7 +28,7 @@ export default function Skills() {
           </div>
           <div className={css.skills__item}>
             <h3>Software skills</h3>
-            <ul>
+            <ul className={css.skills__itemHard}>
               {softwareSkills.map(item => (
                 <SkillRow key={item.name} {...item} />
               ))}
