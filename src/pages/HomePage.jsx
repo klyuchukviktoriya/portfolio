@@ -13,7 +13,6 @@ export default function HomePage() {
         <About />
         <Skills />
         <Works />
-        <Footer />
       </PageWrapper>
     </>
   );

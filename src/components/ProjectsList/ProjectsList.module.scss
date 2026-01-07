@@ -1,0 +1,39 @@
+@use "../../styles/utils/index" as *;
+
+.projects {
+    &__container {
+        padding: 60px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    h2 {
+        @include title;
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .projects {
+        &__container {
+            padding: 80px 40px 40px;
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .projects {
+        &__container {
+            padding: 120px 68px 20px;
+        }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .projects {
+        &__container {
+            // padding: 80px 40px 40px;
+        }
+    }
+}

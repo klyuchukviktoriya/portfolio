@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage";
 import Header from "./components/Header/Header";
 import WorksPage from "./pages/WorksPage";
 import PageWrapper from "./components/PageWrapper/PageWrapper";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
   const location = useLocation();
@@ -31,6 +32,7 @@ export default function App() {
           ></Route>
         </Routes>
       </AnimatePresence>
+      <Footer />
     </>
   );
 }

@@ -20,3 +20,46 @@ export const softwareSkills = [
   { name: "SCSS", value: 60, icon: "sass" },
   { name: "Figma", value: 70, icon: "figma" },
 ];
+
+export const projects = [
+  {
+    id: 1,
+    img: "demo",
+    demo: "https://test-travel-trucks.vercel.app/",
+    github: "https://github.com/klyuchukviktoriya/test-travel-trucks",
+    type: "Personal project",
+    technologies: ["HTML", "SCSS", "JS", "React.js"],
+  },
+  {
+    id: 2,
+    img: "demo",
+    demo: "https://test-travel-trucks.vercel.app/",
+    github: "https://github.com/klyuchukviktoriya/test-travel-trucks",
+    type: "Personal project",
+    technologies: ["HTML", "SCSS", "JS", "React.js"],
+  },
+  {
+    id: 3,
+    img: "demo",
+    demo: "https://test-travel-trucks.vercel.app/",
+    github: "https://github.com/klyuchukviktoriya/test-travel-trucks",
+    type: "Personal project",
+    technologies: ["HTML", "SCSS", "JS", "React.js"],
+  },
+  {
+    id: 4,
+    img: "demo",
+    demo: "https://test-travel-trucks.vercel.app/",
+    github: "https://github.com/klyuchukviktoriya/test-travel-trucks",
+    type: "Personal project",
+    technologies: ["HTML", "SCSS", "JS", "React.js"],
+  },
+  {
+    id: 5,
+    img: "demo",
+    demo: "https://test-travel-trucks.vercel.app/",
+    github: "https://github.com/klyuchukviktoriya/test-travel-trucks",
+    type: "Personal project",
+    technologies: ["HTML", "SCSS", "JS", "React.js"],
+  },
+];
