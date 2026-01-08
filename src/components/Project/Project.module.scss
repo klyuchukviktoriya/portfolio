@@ -2,17 +2,38 @@
     &__imageWrapper {
         position: relative;
         overflow: hidden;
+        // max-width: 1140px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 
         img {
-            width: 100%;
+            width: 80%;
             height: 100%;
+            // margin: 0 auto;
             object-fit: cover;
             filter: grayscale(60%) contrast(1) brightness(0.6);
             transition: filter 0.6s ease, transform 0.6s ease;
+
         }
 
         &:hover img {
             filter: grayscale(0%) contrast(1) brightness(1);
+        }
+
+        p {
+            // position: absolute;
+            // font-size: 160px;
+            // z-index: 2;
+            // top: 20px;
+            // left: 20px;
+            // line-height: 1;
+            // background-color: var(--gold);
+            // opacity: 0.6;
+            // width: 160px;
+            // height: 120px;
+            // border-radius: 16px;
+            // text-align: center;
         }
     }
 

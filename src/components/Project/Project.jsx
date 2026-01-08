@@ -13,8 +13,8 @@ export default function Project({
   return (
     <div className={css.project}>
       <div className={css.project__imageWrapper}>
-        <img src={`${img}.jpg`} />
         <p>{id}</p>
+        <img src={`${img}.jpg`} />
       </div>
       <h3>{name}</h3>
       <p>{description}</p>
