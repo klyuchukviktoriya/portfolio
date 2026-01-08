@@ -12,24 +12,12 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-
-  // --animate-duration: 2s;
-  // --animate-delay: 0.9s;
-
-  // backdrop-filter: blur(10px);
   background: var(--dark);
-  // background: #ffffff;
-  // background: url("../assets/bg.png");
-  // background-repeat: no-repeat;
-  // background-position: center;
-  // background-size: cover;
-  // background: #445454;
 }
 
 *,
 *::before,
-*:after {
+*::after {
   box-sizing: border-box;
 }
 

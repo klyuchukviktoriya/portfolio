@@ -11,7 +11,7 @@ export default function Project({
   description,
 }) {
   return (
-    <div className={css.project}>
+    <div id={`project-${id}`} className={css.project}>
       <div className={css.project__imageWrapper}>
         <p>{id}</p>
         <img src={`${img}.jpg`} />

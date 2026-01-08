@@ -4,10 +4,7 @@
 
 .works {
     &__container {
-        // backdrop-filter: blur(8px);
-        // background: linear-gradient(0.00deg, rgba(255, 255, 255, 0.08) 34%, rgba(24, 24, 24, 0.08) 84%);
         padding: 40px 20px;
-        // margin: 0 auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -18,7 +15,6 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 40px;
-
     }
 
     &__item {
@@ -38,63 +34,45 @@
         }
     }
 
-    &__link {
+    &__btn {
+        text-align: center;
         text-transform: uppercase;
-        position: relative;
-        color: var(--gold);
-        text-decoration-line: underline;
-        text-underline-offset: 8px;
-        text-decoration-thickness: 1.2px;
-        font-size: 20px;
+        border-radius: 8px;
+        color: var(--light);
+        border: 1px solid var(--gold);
+        font-size: 16px;
+        background-color: transparent;
+        opacity: 0.8;
+        padding: 20px 30px;
+    }
 
-        &::after {
-            position: absolute;
-            left: 216px;
-            content: " →";
-            display: inline-block;
-            transform: translateX(0);
-            transition: transform 0.3s ease;
+    @keyframes pulse-glow {
+        0% {
+            box-shadow: 0 0 0 rgba(193, 145, 79, 0);
         }
 
-        &:hover::after {
-            transform: translateX(8px);
+        50% {
+            box-shadow: 0 0 20px rgba(220, 150, 59, 0.8);
+        }
+
+        100% {
+            box-shadow: 0 0 0 rgba(193, 145, 79, 0);
         }
     }
 
-
-
-    &__link--pulse {
-        animation: pulse 2.5s ease-in-out infinite;
+    &__btnPulse {
+        animation: pulse-glow 2s ease-in-out infinite;
     }
-
-    // p {
-    //     opacity: 0.6;
-    // }
 }
 
 @media screen and (min-width: 800px) {
     .works {
         &__container {
-            // backdrop-filter: blur(8px);
-            // background: linear-gradient(0.00deg, rgba(255, 255, 255, 0.08) 34%, rgba(24, 24, 24, 0.08) 84%);
             padding: 60px 40px;
-
-            // display: flex;
-            // flex-direction: row;
-            // align-items: center;
-            // gap: 40px;
-            // justify-content: space-between;
         }
 
         &__list {
             grid-template-columns: repeat(2, 1fr);
-        }
-
-        &__item {
-            // max-width: 346px;
-            // max-width: 45px;
-            // position: relative;
-            // overflow: hidden;
         }
     }
 }
@@ -102,24 +80,7 @@
 @media screen and (min-width: 1000px) {
     .works {
         &__container {
-
             padding: 60px 68px;
-
-
         }
     }
 }
-
-// @keyframes pulse {
-//     0% {
-//         opacity: 0.6;
-//     }
-
-//     50% {
-//         opacity: 1;
-//     }
-
-//     100% {
-//         opacity: 0.6;
-//     }
-// }

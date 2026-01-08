@@ -1,28 +1,25 @@
 import { NavLink } from "react-router-dom";
 import css from "./Works.module.scss";
+import { projects } from "@/helpers/constants";
 
 export default function Works() {
   return (
     <section className={css.works}>
       <div className={`${css.works__container} ${css.container}`}>
-        <h2 className={css.visuallyHidden}>works</h2>{" "}
-        <NavLink className={css.works__link} to="/works">
+        <h2 className={css.visuallyHidden}>works</h2>
+        <NavLink
+          className={`${css.works__btn} ${css.works__btnPulse}`}
+          to="/works"
+        >
           check my works
         </NavLink>
         <div>
           <ul className={css.works__list}>
-            <li className={css.works__item}>
-              <img src="/demo.jpg" alt="demo" />
-            </li>
-            <li className={css.works__item}>
-              <img src="/demo.jpg" alt="demo" />
-            </li>
-            <li className={css.works__item}>
-              <img src="/demo.jpg" alt="demo" />
-            </li>
-            <li className={css.works__item}>
-              <img src="/demo.jpg" alt="demo" />
-            </li>
+            {projects.slice(0, 4).map(project => (
+              <li key={project.id} className={css.works__item}>
+                <img src={`/${project.img}.jpg`} alt={project.name} />
+              </li>
+            ))}
           </ul>
         </div>
       </div>
