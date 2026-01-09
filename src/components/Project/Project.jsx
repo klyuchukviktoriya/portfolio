@@ -17,15 +17,17 @@ export default function Project({
         <img src={`${img}.jpg`} />
       </div>
       <h3>{name}</h3>
-      <p>{description}</p>
+      <p className={css.project__description}>{description}</p>
       <div className={css.project__details}>
         <ul>
           <li>
+            <span></span>
             <a href={demo} target="_blank" rel="noreferrer">
               Live demo
             </a>
           </li>
           <li>
+            <span></span>
             <a href={github} target="_blank" rel="noreferrer">
               GitHub
             </a>
@@ -33,12 +35,19 @@ export default function Project({
         </ul>
         <ul>
           {design.map((item, index) => (
-            <li key={index}>{item}</li>
+            <li key={index}>
+              <span></span>
+              {item}
+            </li>
           ))}
         </ul>
         <ul>
           {technologies.map((technology, index) => (
-            <li key={index}>{technology}</li>
+            <li key={index}>
+              {" "}
+              <span></span>
+              {technology}
+            </li>
           ))}
         </ul>
       </div>
