@@ -29,13 +29,8 @@ export const projects = [
     demo: "https://test-travel-trucks.vercel.app/",
     github: "https://github.com/klyuchukviktoriya/test-travel-trucks",
     type: "Personal / Training project",
-    design: [
-      "Adaptive layout (mobile / tablet / desktop)",
-      "Swiper carousel",
-      "Custom UI interactions",
-    ],
+    design: ["Adaptive layout", "Swiper carousel", "Custom UI interactions"],
     technologies: ["HTML", "SCSS", "JS", "React.js"],
-    description: "Practice project focused on adaptive layouts and UI details",
   },
   {
     id: 2,
@@ -44,13 +39,8 @@ export const projects = [
     demo: "https://test-travel-trucks.vercel.app/",
     github: "https://github.com/klyuchukviktoriya/test-travel-trucks",
     type: "Personal / Training project",
-    design: [
-      "Adaptive layout (mobile / tablet / desktop)",
-      "Swiper carousel",
-      "Custom UI interactions",
-    ],
+    design: ["Adaptive layout", "Swiper carousel", "Custom UI interactions"],
     technologies: ["HTML", "SCSS", "JS", "React.js"],
-    description: "Practice project focused on adaptive layouts and UI details",
   },
   {
     id: 3,
@@ -59,13 +49,8 @@ export const projects = [
     demo: "https://test-travel-trucks.vercel.app/",
     github: "https://github.com/klyuchukviktoriya/test-travel-trucks",
     type: "Personal / Training project",
-    design: [
-      "Adaptive layout (mobile / tablet / desktop)",
-      "Swiper carousel",
-      "Custom UI interactions",
-    ],
+    design: ["Adaptive layout", "Swiper carousel", "Custom UI interactions"],
     technologies: ["HTML", "SCSS", "JS", "React.js"],
-    description: "Practice project focused on adaptive layouts and UI details",
   },
   {
     id: 4,
@@ -74,13 +59,8 @@ export const projects = [
     demo: "https://test-travel-trucks.vercel.app/",
     github: "https://github.com/klyuchukviktoriya/test-travel-trucks",
     type: "Personal / Training project",
-    design: [
-      "Adaptive layout (mobile / tablet / desktop)",
-      "Swiper carousel",
-      "Custom UI interactions",
-    ],
+    design: ["Adaptive layout", "Swiper carousel", "Custom UI interactions"],
     technologies: ["HTML", "SCSS", "JS", "React.js"],
-    description: "Practice project focused on adaptive layouts and UI details",
   },
   {
     id: 5,
@@ -89,12 +69,7 @@ export const projects = [
     demo: "https://test-travel-trucks.vercel.app/",
     github: "https://github.com/klyuchukviktoriya/test-travel-trucks",
     type: "Personal / Training project",
-    design: [
-      "Adaptive layout (mobile / tablet / desktop)",
-      "Swiper carousel",
-      "Custom UI interactions",
-    ],
+    design: ["Adaptive layout", "Swiper carousel", "Custom UI interactions"],
     technologies: ["HTML", "SCSS", "JS", "React.js"],
-    description: "Practice project focused on adaptive layouts and UI details",
   },
 ];
