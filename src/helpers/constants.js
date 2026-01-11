@@ -25,11 +25,11 @@ export const projects = [
   {
     id: 1,
     img: "demo",
-    name: "Bakery website",
+    name: "travel-trucks",
     demo: "https://test-travel-trucks.vercel.app/",
     github: "https://github.com/klyuchukviktoriya/test-travel-trucks",
     type: "Personal / Training project",
-    design: ["Adaptive layout", "Swiper carousel", "Custom UI interactions"],
+    design: ["Adaptive layout", "Custom UI interactions"],
     technologies: ["HTML", "SCSS", "JS", "React.js"],
   },
   {

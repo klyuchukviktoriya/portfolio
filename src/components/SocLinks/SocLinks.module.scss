@@ -1,11 +1,6 @@
 @use "../../styles/utils/index" as *;
 
-
 .soc {
-    // margin-top: auto;
-
-
-
     display: flex;
     gap: 40px;
     align-items: center;
@@ -14,7 +9,6 @@
         width: 35px;
         height: 35px;
     }
-
 
     &__icon {
         width: 35px;
@@ -39,28 +33,19 @@
     &__telegram:hover {
         fill: #2ca5e0;
     }
-
-
 }
 
 @media screen and (min-width: 800px) {
     .soc {
-        // gap: 58px;
 
         li {
             width: 28px;
             height: 28px;
-
-            // border: 1px solid var(--gold);
         }
 
-
         &__icon {
-            // border: 1px solid var(--gold);
             width: 28px;
             height: 28px;
-            // fill: var(--gold);
-            // transition: all 0.5s ease;
         }
     }
 }
