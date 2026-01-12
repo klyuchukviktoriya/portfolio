@@ -4,12 +4,15 @@
     &__imageWrapper {
         position: relative;
         overflow: hidden;
+        aspect-ratio: 16 / 9;
 
         img {
             width: 90%;
+            height: 90%;
             margin: 20px auto;
-            filter: grayscale(60%) contrast(1) brightness(0.6);
+            filter: grayscale(40%) contrast(1) brightness(0.6);
             transition: filter 0.4s ease, transform 0.4s ease;
+            // object-fit: cover;
         }
 
         &:hover img {

@@ -17,7 +17,7 @@ export default function Works() {
           <ul className={css.works__list}>
             {projects.slice(0, 4).map(project => (
               <li key={project.id} className={css.works__item}>
-                <img src={`/${project.img}.jpg`} alt={project.name} />
+                <img src={`/${project.img}.png`} alt={project.name} />
               </li>
             ))}
           </ul>

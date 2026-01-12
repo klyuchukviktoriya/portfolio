@@ -8,6 +8,7 @@ export default function Project({
   design,
   name,
   technologies,
+  type,
   //   description,
 }) {
   return (
@@ -15,7 +16,7 @@ export default function Project({
       <h3>{name}</h3>
       <div className={css.project__imageWrapper}>
         <p>{id}</p>
-        <img src={`${img}.jpg`} />
+        <img src={`${img}.png`} />
       </div>
 
       {/* <p className={css.project__description}>{description}</p> */}
@@ -62,6 +63,9 @@ export default function Project({
               {item}
             </li>
           ))}
+          <li>
+            <span></span> {type}
+          </li>
         </ul>
       </div>
     </div>
