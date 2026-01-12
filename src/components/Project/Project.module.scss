@@ -12,6 +12,7 @@
             margin: 20px auto;
             filter: grayscale(40%) contrast(1) brightness(0.6);
             transition: filter 0.4s ease, transform 0.4s ease;
+            box-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4);
             // object-fit: cover;
         }
 
@@ -33,6 +34,7 @@
             border-radius: 8px;
             text-align: center;
             transition: all 0.4s ease;
+            box-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4);
         }
 
         &:hover p {
