@@ -9,7 +9,7 @@ export default function Works() {
         <h2 className={css.visuallyHidden}>works</h2>
         <NavLink
           className={`${css.works__btn} ${css.works__btnPulse}`}
-          to="/works"
+          to="/projects"
         >
           check my works
         </NavLink>
