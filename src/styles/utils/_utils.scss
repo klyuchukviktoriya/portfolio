@@ -1,6 +1,10 @@
 // html {
 //     scroll-behavior: smooth;
 // }
+html,
+body {
+    overflow-x: hidden;
+}
 
 .container {
     width: 100%;

@@ -2,15 +2,17 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import HomePage from "./pages/HomePage";
 import Header from "./components/Header/Header";
-import WorksPage from "./pages/WorksPage";
+import ProjectsPage from "./pages/ProjectsPage";
 import PageWrapper from "./components/PageWrapper/PageWrapper";
 import Footer from "./components/Footer/Footer";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 export default function App() {
   const location = useLocation();
 
   return (
     <>
+      <ScrollToTop />
       <Header />
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
@@ -23,10 +25,10 @@ export default function App() {
             }
           ></Route>
           <Route
-            path="/works"
+            path="/projects"
             element={
               <PageWrapper>
-                <WorksPage />
+                <ProjectsPage />
               </PageWrapper>
             }
           ></Route>

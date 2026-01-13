@@ -32,8 +32,8 @@ export default function Header() {
           <NavLink to="/" aria-label="link to home page">
             Home
           </NavLink>
-          <NavLink to="/works" aria-label="link to works page">
-            Works
+          <NavLink to="/projects" aria-label="link to projects page">
+            Projects
           </NavLink>
         </nav>
         {isOpen && <Modal onClose={() => setIsOpen(false)} />}

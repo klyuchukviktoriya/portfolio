@@ -22,10 +22,10 @@ export default function Menu({ onClose }) {
           </NavLink>
           <NavLink
             onClick={onClose}
-            to="/works"
-            aria-label="link to works page"
+            to="/projects"
+            aria-label="link to projects page"
           >
-            Works
+            Projects
           </NavLink>
         </nav>
         <SocLinks className={css.mobileOnly} />
