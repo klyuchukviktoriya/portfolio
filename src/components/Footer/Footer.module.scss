@@ -1,7 +1,9 @@
 @use "../../styles/utils/index" as *;
 
 .footer {
-    background: linear-gradient(0.00deg, rgba(255, 255, 255, 0.08) 34%, rgb(37, 37, 37) 84%);
+    // background: linear-gradient(0.00deg, rgba(255, 255, 255, 0.08) 34%, rgb(37, 37, 37) 84%);
+    background: rgba(24, 24, 24, 0.9);
+    backdrop-filter: blur(3px);
 
     &__container {
         padding: 40px 20px;
@@ -21,7 +23,7 @@
 @media screen and (min-width: 800px) {
     .footer {
         &__container {
-            padding: 60px 40px;
+            padding: 40px;
             flex-direction: row;
             justify-content: space-between;
         }
@@ -31,7 +33,7 @@
 @media screen and (min-width: 1000px) {
     .footer {
         &__container {
-            padding: 60px 68px 40px;
+            padding: 40px 68px 40px;
         }
     }
 }

@@ -6,13 +6,14 @@ body {
     overflow-x: hidden;
 }
 
+button {
+    font-family: inherit;
+}
+
 .container {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    // padding: 40px 20px;
-    // background: var(--em-light);
-    // border: 1px solid var(--gold);
 }
 
 // section {
