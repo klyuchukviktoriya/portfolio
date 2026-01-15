@@ -6,15 +6,31 @@ export default function ScrollToTop() {
 
   useEffect(() => {
     if (location.hash) {
-      const el = document.querySelector(location.hash);
+      let rafId = 0;
+      let attempts = 0;
+      const maxAttempts = 60;
 
-      setTimeout(() => {
+      const scrollToHash = () => {
+        const el = document.querySelector(location.hash);
+
         if (el) {
           el.scrollIntoView({ behavior: "smooth", block: "start" });
+          return;
         }
-      }, 0);
 
-      return;
+        attempts += 1;
+        if (attempts < maxAttempts) {
+          rafId = requestAnimationFrame(scrollToHash);
+        }
+      };
+
+      rafId = requestAnimationFrame(scrollToHash);
+
+      return () => {
+        if (rafId) {
+          cancelAnimationFrame(rafId);
+        }
+      };
     }
 
     window.scrollTo(0, 0);

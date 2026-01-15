@@ -1,6 +1,8 @@
 @use "../../styles/utils/index" as *;
 
 .project {
+    scroll-margin-top: 100px;
+
     &__imageWrapper {
         position: relative;
         overflow: hidden;
@@ -13,7 +15,6 @@
             margin: 20px auto 0;
             filter: grayscale(40%) contrast(1) brightness(0.6);
             transition: filter 0.4s ease, transform 0.4s ease;
-            box-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4);
             object-fit: cover;
             object-position: top;
         }
@@ -36,7 +37,6 @@
             border-radius: 8px;
             text-align: center;
             transition: all 0.4s ease;
-            box-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4);
         }
 
         &:hover p {

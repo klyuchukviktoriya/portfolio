@@ -18,7 +18,6 @@
         text-transform: uppercase;
         opacity: 0.8;
         font-weight: 600;
-        text-shadow: 8px 6px 8px rgba(0, 0, 0, 0.4);
         text-decoration-line: underline;
         text-underline-offset: 8px;
         text-decoration-thickness: 1.2px;
@@ -41,9 +40,7 @@
             padding: 80px 40px 40px;
         }
 
-        &__title {
-            text-align: left;
-        }
+
 
         h3 {
             text-align: left;
@@ -66,10 +63,22 @@
     }
 }
 
+@media screen and (min-width: 900px) {
+    .skills {
+        &__container {
+            padding: 20px 40px 20px;
+        }
+
+        &__title {
+            text-align: left;
+        }
+    }
+}
+
 @media screen and (min-width: 1000px) {
     .skills {
         &__container {
-            padding: 120px 68px 20px;
+            padding: 60px 68px 20px;
         }
 
         h3 {
