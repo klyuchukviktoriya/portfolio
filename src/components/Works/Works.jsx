@@ -11,13 +11,15 @@ export default function Works() {
           className={`${css.works__btn} ${css.works__btnPulse}`}
           to="/projects"
         >
-          check my works
+          check my projects
         </NavLink>
         <div>
           <ul className={css.works__list}>
             {projects.slice(0, 4).map(project => (
               <li key={project.id} className={css.works__item}>
-                <img src={`/${project.img}.png`} alt={project.name} />
+                <NavLink to={`/projects#project-${project.id}`}>
+                  <img src={`/${project.img}.png`} alt={project.name} />
+                </NavLink>
               </li>
             ))}
           </ul>
