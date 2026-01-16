@@ -39,8 +39,8 @@ export const projects = [
     demo: "https://bakery-shop-kv.netlify.app/",
     github: "https://github.com/klyuchukviktoriya/bakery",
     type: "Personal / Training project",
-    design: ["Adaptive layout", "Swiper carousel", "Custom UI interactions"],
-    technologies: ["HTML", "SCSS", "JS", "React.js"],
+    design: ["Adaptive layout", "Swiper carousel"],
+    technologies: ["HTML", "SCSS", "JS"],
   },
   {
     id: 3,
@@ -49,8 +49,8 @@ export const projects = [
     demo: "https://klyuchukviktoriya.github.io/goit-markup-hw-06/",
     github: "https://github.com/klyuchukviktoriya/goit-markup-hw-06",
     type: "Personal / Training project",
-    design: ["Adaptive layout", "Swiper carousel", "Custom UI interactions"],
-    technologies: ["HTML", "SCSS", "JS", "React.js"],
+    design: ["Adaptive layout"],
+    technologies: ["HTML", "CSS"],
   },
   {
     id: 4,
@@ -59,8 +59,8 @@ export const projects = [
     demo: "https://projects.zhygalko.dev/project-vegetables24/",
     github: "https://github.com/andrii-zhygalko/project-vegetables24",
     type: "Group / Training project",
-    design: ["Adaptive layout", "Swiper carousel", "Custom UI interactions"],
-    technologies: ["HTML", "SCSS", "JS", "React.js"],
+    design: ["Adaptive layout", "Custom UI interactions"],
+    technologies: ["HTML", "CSS", "JS"],
   },
   {
     id: 5,
@@ -69,7 +69,7 @@ export const projects = [
     demo: "https://projects.zhygalko.dev/project_myResume/",
     github: "https://github.com/andrii-zhygalko/project_myResume",
     type: "Group / Training project",
-    design: ["Adaptive layout", "Swiper carousel", "Custom UI interactions"],
-    technologies: ["HTML", "SCSS", "JS", "React.js"],
+    design: ["Adaptive layout", "Custom UI interactions"],
+    technologies: ["HTML", "CSS", "JS"],
   },
 ];
