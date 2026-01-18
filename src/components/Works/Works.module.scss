@@ -25,6 +25,7 @@
             height: 100%;
             object-fit: cover;
             object-position: top;
+            border: 2px solid var(--gold);
         }
     }
 
@@ -33,7 +34,7 @@
         text-transform: uppercase;
         border-radius: 8px;
         color: var(--light);
-        border: 1px solid var(--gold);
+        // border: 1px solid var(--gold);
         font-size: 16px;
         background-color: transparent;
         opacity: 0.8;
@@ -42,15 +43,15 @@
 
     @keyframes pulse-glow {
         0% {
-            box-shadow: 0 0 0 rgba(193, 145, 79, 0);
+            box-shadow: 0 0 0 rgba(60, 60, 60, 0);
         }
 
         50% {
-            box-shadow: 0 0 20px rgba(220, 150, 59, 0.8);
+            box-shadow: 0 0 20px rgba(203, 164, 114, 0.8);
         }
 
         100% {
-            box-shadow: 0 0 0 rgba(193, 145, 79, 0);
+            box-shadow: 0 0 0 rgba(60, 60, 60, 0);
         }
     }
 

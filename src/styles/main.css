@@ -1,7 +1,7 @@
 :root {
-  --dark: #252525;
+  --dark: #3c3c3c;
   --light: #FFFFFF;
-  --gold: #C1914F;
+  --gold: #cba472;
   --text: 8px 6px 8px rgba(0, 0, 0, 1);
   --box: 8px 6px 8px rgba(0, 0, 0, 0.4);
 }
@@ -34,6 +34,13 @@ nav > a {
   text-transform: uppercase;
   opacity: 0.6;
   font-weight: 600;
+  transition: all 0.3s ease;
+  line-height: 1;
+}
+
+nav > a:not(.active):hover {
+  opacity: 1;
+  color: var(--gold);
 }
 
 @media screen and (min-width: 800px) {

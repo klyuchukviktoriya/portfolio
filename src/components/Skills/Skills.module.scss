@@ -11,12 +11,13 @@
     }
 
     h3 {
+        @include gradient;
         text-align: center;
-        color: var(--gold);
+        // color: var(--gold);
         margin-bottom: 24px;
         font-size: 18px;
         text-transform: uppercase;
-        opacity: 0.8;
+        // opacity: 0.8;
         font-weight: 600;
         text-decoration-line: underline;
         text-underline-offset: 8px;

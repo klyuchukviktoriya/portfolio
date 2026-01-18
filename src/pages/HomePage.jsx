@@ -3,7 +3,7 @@ import Hero from "@/components/Hero/Hero";
 import About from "@/components/About/About";
 import Skills from "@/components/Skills/Skills";
 import Works from "@/components/Works/Works";
-import Footer from "@/components/Footer/Footer";
+import Job from "@/components/Job/Job";
 
 export default function HomePage() {
   return (
@@ -11,6 +11,7 @@ export default function HomePage() {
       <PageWrapper>
         <Hero />
         <About />
+        <Job />
         <Skills />
         <Works />
       </PageWrapper>

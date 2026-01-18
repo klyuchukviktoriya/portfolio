@@ -18,9 +18,16 @@
     }
 }
 
+@mixin gradient {
+    background: linear-gradient(180deg, #3c3c3c 0%, #cba472 50%, #3c3c3c 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
 @mixin title {
-    color: var(--gold);
-    opacity: 0.8;
+    @include gradient;
     font-size: 64px;
     font-weight: 600;
     line-height: 1;

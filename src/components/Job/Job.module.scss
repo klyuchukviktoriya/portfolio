@@ -1,0 +1,32 @@
+.job {
+  padding: 12px 0;
+  background-color: #cba4728f;
+  // background: linear-gradient(180deg, #3c3c3c 0%, #cba472 50%, #3c3c3c 100%);
+
+  &__container {
+    padding: 0 24px;
+    color: var(--dark);
+  }
+
+  h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #212121;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .job {
+    &__container {
+      padding: 0 40px;
+    }
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .job {
+    &__container {
+      padding: 0 68px;
+    }
+  }
+}
