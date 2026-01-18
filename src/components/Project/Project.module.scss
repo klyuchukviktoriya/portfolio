@@ -30,9 +30,7 @@
             top: 0;
             left: 0;
             line-height: 1;
-            // background-color: var(--gold);
             background: linear-gradient(180deg, #3c3c3c 0%, #cba472 50%, #3c3c3c 100%);
-            // opacity: 0.8;
             width: 80px;
             border-radius: 8px;
             text-align: center;
@@ -40,7 +38,6 @@
         }
 
         &:hover p {
-            // opacity: 0;
             transform: translateX(-100%);
         }
     }
@@ -48,9 +45,7 @@
     h3 {
         border-bottom: 1px solid var(--gold);
         text-align: center;
-        // color: var(--gold);
         @include gradient;
-        // opacity: 0.8;
         font-size: 30px;
         margin-bottom: 12px;
         text-transform: uppercase;
