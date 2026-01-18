@@ -13,7 +13,6 @@
     svg {
         width: 24px;
         height: 24px;
-        // stroke: var(--gold);
         fill: var(--gold);
         filter: drop-shadow(8px 6px 8px rgba(0, 0, 0, 1));
     }
@@ -32,40 +31,3 @@
         font-size: 105px;
     }
 }
-
-// @mixin btn($background-color: var(--brown)) {
-//   color: var(--light);
-//   background-color: $background-color;
-//   font-weight: 400;
-//   font-size: 14px;
-//   border: none;
-//   width: 120px;
-//   height: 40px;
-//   display: grid;
-//   place-items: center;
-//   border-radius: 16px;
-//   position: relative;
-//   overflow: hidden;
-//   z-index: 2;
-
-//   &:after {
-//     background: var(--light);
-//     content: "";
-//     height: 155px;
-//     left: -75px;
-//     opacity: 0.2;
-//     position: absolute;
-//     top: -50px;
-//     transform: rotate(35deg);
-//     transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
-//     width: 50px;
-//     z-index: 1;
-//   }
-
-//   &:hover {
-//     &:after {
-//       left: 120%;
-//       transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
-//     }
-//   }
-// }

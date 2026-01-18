@@ -9,7 +9,6 @@ export default function Project({
   name,
   technologies,
   type,
-  //   description,
 }) {
   return (
     <div id={`project-${id}`} className={css.project}>
@@ -18,8 +17,6 @@ export default function Project({
         <p>{id}</p>
         <img src={`${img}.png`} />
       </div>
-
-      {/* <p className={css.project__description}>{description}</p> */}
       <div className={css.project__details}>
         <div>
           <ul>

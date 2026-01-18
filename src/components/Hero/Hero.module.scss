@@ -86,18 +86,12 @@
 
 @media screen and (min-width: 768px) {
     .hero {
-        // height: 100vh;
         background: url("/bg.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
 
         &__container {
-            // height: 100vh;
-            // background: url("/bg.jpg");
-            // background-size: cover;
-            // background-position: center;
-            // background-repeat: no-repeat;
             padding: 240px 40px 40px;
             justify-content: space-between;
         }
@@ -152,18 +146,12 @@
 
 @media screen and (min-width: 1080px) {
     .hero {
-        // height: 100vh;
         background: url("/bg.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
 
         &__container {
-            // height: 100vh;
-            // background: url("/bg.jpg");
-            // background-size: cover;
-            // background-position: center;
-            // background-repeat: no-repeat;
             padding: 268px 68px 40px;
         }
 

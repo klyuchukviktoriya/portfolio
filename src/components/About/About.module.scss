@@ -3,14 +3,11 @@
 .about {
     &__container {
         padding: 60px 20px 20px;
-        // text-align: center;
-        // border-bottom: 4px solid #ffffff1f;
     }
 
     &__title {
         @include title;
         text-align: center;
-        // border-bottom: 2px solid var(--gold);
         margin-bottom: 20px;
     }
 
@@ -22,7 +19,6 @@
     }
 
     &__wrapper {
-        // height: 400px;
         overflow: hidden;
         border-radius: 8px;
         position: relative;
@@ -42,7 +38,6 @@
             width: 100%;
             object-position: top;
             object-fit: cover;
-            // height: 400px;
         }
     }
 
@@ -67,9 +62,6 @@
     .about {
         &__title {
             @include title;
-            // text-align: left;
-            // margin-bottom: 0;
-            // border-bottom: 2px solid var(--gold);
         }
 
         &__container {
@@ -93,21 +85,12 @@
         }
 
         &__text {
-            // gap: 60px;
-            // padding: 20px 0;
 
             p {
-                // margin-top: 16px;
                 text-align: left;
                 max-width: none;
                 line-height: 2.2;
             }
-
-            // p:first-child {
-
-            //     margin-top: 32px;
-
-            // }
         }
     }
 }
@@ -124,39 +107,15 @@
 
         }
 
-        &__content {
-            // gap: 200px;
-        }
-
-        // &__wrapper {
-        //     height: 480px;
-        //     width: 400px;
-
-        //     img {
-        //         height: 480px;
-        //     }
-        // }
-
         &__text {
             p {
                 max-width: none;
-                // line-height: 2.2;
-                // font-size: 18px;
                 margin-top: 16px;
-                // text-align: left;
             }
-
-
         }
 
         &__wrapper {
-            // height: 440px;
-            // min-width: 400px;
             margin-top: -90px;
-
-            img {
-                // height: 440px;
-            }
         }
     }
 }
@@ -167,26 +126,6 @@
         &__content {
             gap: 0;
             justify-content: space-between;
-        }
-
-        // &__wrapper {
-        //     height: 480px;
-        //     width: 400px;
-
-        //     img {
-        //         height: 480px;
-        //     }
-        // }
-
-        &__text {
-            // margin-right: 60px;
-            // gap: 80px;
-
-            p {
-                // text-align: center;
-                // line-height: 2.35;
-                // font-size: 18px;
-            }
         }
     }
 }
