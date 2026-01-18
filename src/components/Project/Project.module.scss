@@ -51,7 +51,7 @@
         // color: var(--gold);
         @include gradient;
         // opacity: 0.8;
-        font-size: 46px;
+        font-size: 30px;
         margin-bottom: 12px;
         text-transform: uppercase;
     }
@@ -113,6 +113,10 @@
 
         &__imageWrapper {
             height: 500px;
+        }
+
+        h3 {
+            font-size: 40px;
         }
 
         &__details {
