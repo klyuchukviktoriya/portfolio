@@ -9,6 +9,7 @@ export default function SocLinks({ className }) {
             href="https://github.com/klyuchukviktoriya"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="My GitHub page"
           >
             <svg className={`${css.soc__icon} ${css.soc__github}`}>
               <use href="/sprite.svg#icon-github"></use>
@@ -21,6 +22,7 @@ export default function SocLinks({ className }) {
               href="mailto:klyuchuk.viktoriya@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="My email"
             >
               <svg className={`${css.soc__icon} ${css.soc__gmail}`}>
                 <use href="/sprite.svg#icon-gmail"></use>
@@ -33,6 +35,7 @@ export default function SocLinks({ className }) {
             href="https://www.linkedin.com/in/viktoriia-kliuchuk"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="My LinkedIn page"
           >
             <svg className={`${css.soc__icon} ${css.soc__linkedin}`}>
               <use href="/sprite.svg#icon-linkedin"></use>
@@ -44,6 +47,7 @@ export default function SocLinks({ className }) {
             href="https://t.me/vktr_klchk"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="My Telegram"
           >
             <svg className={`${css.soc__icon} ${css.soc__telegram}`}>
               <use href="/sprite.svg#icon-telegram"></use>

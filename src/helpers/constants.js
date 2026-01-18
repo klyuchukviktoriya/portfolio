@@ -11,13 +11,13 @@ export const personalSkills = [
 ];
 
 export const softwareSkills = [
-  { name: "HTML5", value: 90, icon: "html5" },
+  { name: "HTML5", value: 80, icon: "html5" },
   { name: "CSS3", value: 90, icon: "css3" },
-  { name: "React.js", value: 50, icon: "react" },
-  { name: "TypeScript", value: 50, icon: "typescript" },
-  { name: "JavaScript", value: 60, icon: "javascript" },
+  { name: "React.js", value: 40, icon: "react" },
+  { name: "TypeScript", value: 40, icon: "typescript" },
+  { name: "JavaScript", value: 50, icon: "javascript" },
   { name: "Git", value: 80, icon: "git" },
-  { name: "SCSS", value: 80, icon: "sass" },
+  { name: "SCSS", value: 90, icon: "sass" },
   { name: "Figma", value: 90, icon: "figma" },
 ];
 

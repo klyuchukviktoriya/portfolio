@@ -23,7 +23,11 @@ export default function Header() {
     <header className={`${css.header} ${scrolled ? css.scrolled : ""}`}>
       <div className={css.header__container}>
         <h2>Viсtoria Klyuchuk</h2>
-        <button className={css.header__menuBtn} onClick={() => setIsOpen(true)}>
+        <button
+          className={css.header__menuBtn}
+          onClick={() => setIsOpen(true)}
+          aria-label="Open navigation menu"
+        >
           <svg>
             <use href="/sprite.svg#icon-menu"></use>
           </svg>

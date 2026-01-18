@@ -10,7 +10,7 @@ export default function Menu({ onClose }) {
           onClick={onClose}
           className={css.menu__closeBtn}
           type="button"
-          aria-label="Close menu"
+          aria-label="Close navigation menu"
         >
           <svg>
             <use href="/sprite.svg#icon-close"></use>

@@ -15,24 +15,26 @@ export default function App() {
       <ScrollToTop />
       <Header />
       <AnimatePresence mode="wait">
-        <Routes location={location} key={location.pathname}>
-          <Route
-            path="/"
-            element={
-              <PageWrapper>
-                <HomePage />
-              </PageWrapper>
-            }
-          ></Route>
-          <Route
-            path="/projects"
-            element={
-              <PageWrapper>
-                <ProjectsPage />
-              </PageWrapper>
-            }
-          ></Route>
-        </Routes>
+        <main>
+          <Routes location={location} key={location.pathname}>
+            <Route
+              path="/"
+              element={
+                <PageWrapper>
+                  <HomePage />
+                </PageWrapper>
+              }
+            ></Route>
+            <Route
+              path="/projects"
+              element={
+                <PageWrapper>
+                  <ProjectsPage />
+                </PageWrapper>
+              }
+            ></Route>
+          </Routes>
+        </main>
       </AnimatePresence>
       <Footer />
     </>
